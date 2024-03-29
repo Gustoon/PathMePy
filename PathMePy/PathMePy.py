@@ -14,7 +14,7 @@ def PathMePyDir(path):
     elif platform.system() == "Linux":
         os.system('export PATH=$PATH:' + path)
 
-def PathMePyUserScriptFolder():
+def PathmePyUserScriptFolder():
     path = site.getusersitepackages()
     if platform.system() == "Windows" :
         os.system('set Path="%Path%;' + path + '"')
