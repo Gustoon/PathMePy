@@ -1,1 +1,1 @@
-from PathMePy.PathMePy import PathMePyDir, PathmePyUserScriptFolder
+from PathMePy.PathMePy import PathMePyDir, PathMePyUserScriptFolder

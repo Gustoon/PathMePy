@@ -1,9 +1,9 @@
 Metadata-Version: 2.1
 Name: PathMePy
-Version: 0.1
+Version: 0.2
 Summary: A tool to add scripts to Path
 Home-page: https://github.com/Gustoon/PathMePy
-Download-URL: https://github.com/Gustoon/PathMePy/archive/refs/tags/0.1.tar.gz
+Download-URL: https://github.com/Gustoon/PathMePy/archive/refs/tags/0.2.tar.gz
 Author: Gustoon
 Author-email: 
 License: MIT
