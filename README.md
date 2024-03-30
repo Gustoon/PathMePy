@@ -3,7 +3,7 @@
 A tool to add scripts to Path
 
 ## Installation
-You just have to move this file in your script folder and import it with `import PathMePy`
+You just have to install the package using pip : `pip install PathMePy`
 
 ## usage
 This packages add two function : 
