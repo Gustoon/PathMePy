@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
 name='PathMePy-Gustoon',
-version='0.1',
+version='0.1.2',
 author='Gustoon',
 author_email='',
 description='A tool to add scripts to Path',
@@ -12,9 +12,10 @@ long_description='''
 A tool to add scripts to Path
 
 ## Installation
-You just have to install the package using pip : `pip install PathMePy`
+You have to install the package using pip : `pip install PathMePy-Gustoon`
 
 ## usage
+You need to import this package with `import PathMePy_Gustoon`
 This packages add two function : 
 `PathMePyDir(path)` and 
 `PathMePyUserScriptFolder()` .

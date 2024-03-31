@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: PathMePy-Gustoon
-Version: 0.1
+Version: 0.1.2
 Summary: A tool to add scripts to Path
 Author: Gustoon
 Author-email: 
@@ -17,9 +17,10 @@ License-File: LICENSE.txt
 A tool to add scripts to Path
 
 ## Installation
-You just have to install the package using pip : `pip install PathMePy`
+You have to install the package using pip : `pip install PathMePy-Gustoon`
 
 ## usage
+You need to import this package with `import PathMePy_Gustoon`
 This packages add two function : 
 `PathMePyDir(path)` and 
 `PathMePyUserScriptFolder()` .
