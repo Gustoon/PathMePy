@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
 name='PathMePy-Gustoon',
-version='0.2.1',
+version='0.3',
 author='Gustoon',
 author_email='',
 description='A tool to add scripts to Path',
