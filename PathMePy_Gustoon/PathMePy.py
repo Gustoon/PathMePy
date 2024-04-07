@@ -25,10 +25,10 @@ def IsAlreadyOnPath(path):
 def PathMePyDir(path):
     path = os.path.abspath(path)
     if not os.path.exists(path):
-        raise PathNotFoundError("The path is not found.")
-    if platform.system() != "Windows" and platform.system() != "Linux" :
+        raise PathNotFoundError("The path " + path + " doesn't exist.")
+    elif platform.system() != "Windows" and platform.system() != "Linux" :
         os.system('export PATH=$PATH:' + path)
-    if platform.system() == "Windows" :
+    elif platform.system() == "Windows" :
         os.system('set Path="%Path%;' + path + '"')
     elif platform.system() == "Linux":
         os.system('export PATH=$PATH:' + path)
