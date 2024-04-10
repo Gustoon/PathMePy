@@ -22,6 +22,12 @@ def IsAlreadyOnPath(path):
     else:
         return False
 
+def UserScriptFolderIsAlreadyOnPath():
+    if site.getusersitepackages() in Current_Path_Formated:
+        return True
+    else:
+        return False
+
 def PathMePyDir(path):
     path = os.path.abspath(path)
     if not os.path.exists(path):

@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
 name='PathMePy-Gustoon',
-version='0.3.1',
+version='0.4',
 author='Gustoon',
 author_email='',
 description='A tool to add scripts to Path',
@@ -19,14 +19,17 @@ This packages add three functions :
 `PathMePyDir(path)`,
 `PathMePyUserScriptFolder()`,
 `IsAlreadyOnPath(path)`,
+`UserScriptFolderIsAlreadyOnPath()`,
 two variables `Current_Path` and `Current_Path_Formated`
 
 ## Explanation
 `PathMePyDir(path)` function is for temporaly add a directory in your user PATH variable,
 `PathMePyUserScriptFolder()` function is for add the Python User Script Folder to the user PATH variable,
 `IsAlreadyOnPath(path)` function return if an element is on the PATH or not,
+`UserScriptFolderIsAlreadyOnPath()` function return if the User Script folder is on the PATH or not,
 `Current_Path` is a variable with the current path,
-`Current_Path_Formated` is a formatted version of `Current_Path` that changes each PATH separator with a newline.""",
+`Current_Path_Formated` is a formatted version of `Current_Path` that changes each PATH separator with a newline.
+""",
 long_description_content_type='text/markdown',
 packages=find_packages(),
 classifiers=[
