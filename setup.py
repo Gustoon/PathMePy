@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
 name='PathMePy',
-version='0.5.1',
+version='0.5.2',
 author='Gustoon',
 author_email='',
 description='A tool to add scripts to Path',
@@ -15,7 +15,7 @@ You have to install the package using pip : `pip install PathMePy`
 
 ## Content
 You need to import this package with `import PathMePy`
-This packages add three functions : 
+This packages add four functions : 
 `PathMePyDir(path)`,
 `PathMePyUserScriptFolder()`,
 `IsAlreadyOnPath(path)`,
