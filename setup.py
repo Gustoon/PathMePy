@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-name='PathMePy-Gustoon',
-version='0.5',
+name='PathMePy',
+version='0.5.1',
 author='Gustoon',
 author_email='',
 description='A tool to add scripts to Path',
@@ -11,10 +11,10 @@ long_description="""
 A tool to add scripts to Path
 
 ## Installation
-You have to install the package using pip : `pip install PathMePy-Gustoon`
+You have to install the package using pip : `pip install PathMePy`
 
 ## Content
-You need to import this package with `import PathMePy_Gustoon`
+You need to import this package with `import PathMePy`
 This packages add three functions : 
 `PathMePyDir(path)`,
 `PathMePyUserScriptFolder()`,
