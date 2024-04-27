@@ -1,5 +1,3 @@
-LICENSE.txt
-README.md
 setup.py
 PathMePy/PathMePy.py
 PathMePy/__init__.py
