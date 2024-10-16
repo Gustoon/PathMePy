@@ -2,7 +2,7 @@
 A tool to add scripts to Path
 
 ## Installation
-You have to install the package using pip : `pip install PathMePy`
+You have to install the package by moving the `PathMePy.py` file into your project.
 
 ## Content
 You need to import this package with `import PathMePy`
