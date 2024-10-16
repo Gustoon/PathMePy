@@ -1,1 +1,0 @@
-from PathMePy.PathMePy import PathMePyDir, PathMePyUserScriptFolder, Current_Path, Current_Path_Formated, PathNotFoundError, IsAlreadyOnPath, UserScriptFolderIsAlreadyOnPath

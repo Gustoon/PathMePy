@@ -22,7 +22,11 @@ def IsAlreadyOnPath(path):
         return False
 
 def UserScriptFolderIsAlreadyOnPath():
-    if site.getusersitepackages().replace('site-packages', 'Scripts') in Current_Path_Formated:
+    if platform.system() == "Windows":
+        path = site.getusersitepackages().replace('site-packages', 'Scripts')
+    else:
+        path = "~/.local/bin"
+    if path in Current_Path_Formated:
         return True
     else:
         return False
@@ -39,7 +43,10 @@ def PathMePyDir(path):
         os.system('export PATH=$PATH:' + path)
 
 def PathMePyUserScriptFolder():
-    path = site.getusersitepackages().replace('site-packages', 'Scripts')
+    if platform.system() == "Windows":
+        path = site.getusersitepackages().replace('site-packages', 'Scripts')
+    else:
+        path = "~/.local/bin"
     if platform.system() != "Windows" and platform.system() != "Linux" :
         os.system('export PATH=$PATH:' + path)
     if platform.system() == "Windows" :
